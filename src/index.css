@@ -17,15 +17,15 @@ code {
   color: #663399;
   font-size: xxx-large;
   text-align: center;
-  font-family: serif;
+  font-family: "Arial Black", serif;
   font-weight: bolder;
 }
 
 .subtitle {
   color: white;
-  font-size: x-large;
+  font-size: large;
   text-align: center;
-  font-family: serif;
+  font-family: "Arial", serif;
   font-weight: normal;
 }
 
@@ -33,6 +33,7 @@ code {
 .steam-link,
 .youtube-link,
 .twitch-link {
+  font-family: "Arial", serif;
   font-weight: bold;
   font-size: x-large;
   text-decoration: none;
@@ -60,12 +61,6 @@ table {
   width: 25%;
   table-layout: fixed;
   text-align: center;
-}
-
-tr,
-td {
-  text-align: center;
-  width: 50%;
 }
 
 .title-green {
