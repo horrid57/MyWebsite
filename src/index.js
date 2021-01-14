@@ -121,18 +121,20 @@ ReactDOM.render(
         <TypedElement data={elementData.title} />
         <TypedElement data={elementData.subtitle} />
         <table style={{ paddingTop: "30px" }}>
-            <tr>
-                <TypedElement data={elementData["links"][0]} />
-            </tr>
-            <tr>
-                <TypedElement data={elementData["links"][1]} />
-            </tr>
-            <tr>
-                <TypedElement data={elementData["links"][2]} />
-            </tr>
-            <tr>
-                <TypedElement data={elementData["links"][3]} />
-            </tr>
+            <tbody>
+                <tr>
+                    <TypedElement data={elementData["links"][0]} />
+                </tr>
+                <tr>
+                    <TypedElement data={elementData["links"][1]} />
+                </tr>
+                <tr>
+                    <TypedElement data={elementData["links"][2]} />
+                </tr>
+                <tr>
+                    <TypedElement data={elementData["links"][3]} />
+                </tr>
+            </tbody>
         </table>
     </div>,
     document.getElementById('root'),

@@ -13,29 +13,54 @@ code {
     monospace;
 }
 
+table {
+  margin-left: 37.5%;
+  margin-right: 37.5%;
+  width: 25%;
+  table-layout: fixed;
+  text-align: center;
+}
+
 .title {
-  color: #663399;
   font-size: xxx-large;
   text-align: center;
-  font-family: "Arial Black", serif;
+  font-family: serif;
   font-weight: bolder;
+  color: #663399;
+}
+
+.title-green {
+  font-size: xxx-large;
+  text-align: center;
+  font-family: serif;
+  font-weight: bolder;
+  color: #00d400;
 }
 
 .subtitle {
-  color: white;
   font-size: large;
   text-align: center;
-  font-family: "Arial", serif;
-  font-weight: normal;
+  font-family: serif;
+  font-weight: bold;
+  color: white;
+
+}
+
+.subtitle-green {
+  font-size: large;
+  text-align: center;
+  font-family: serif;
+  font-weight: bold;
+  color: #00d400;
 }
 
 .github-link,
 .steam-link,
 .youtube-link,
 .twitch-link {
-  font-family: "Arial", serif;
-  font-weight: bold;
   font-size: x-large;
+  font-family: serif;
+  font-weight: bold;
   text-decoration: none;
 }
 
@@ -55,34 +80,10 @@ code {
   color: #e30000;
 }
 
-table {
-  margin-left: 37.5%;
-  margin-right: 37.5%;
-  width: 25%;
-  table-layout: fixed;
-  text-align: center;
-}
-
-.title-green {
-  font-size: xxx-large;
-  text-align: center;
-  font-family: serif;
-  font-weight: bolder;
-  color: #00d400;
-}
-
-.subtitle-green {
-  font-size: x-large;
-  text-align: center;
-  font-family: serif;
-  font-weight: normal;
-  color: #00d400;
-}
-
 .link-green {
-  font-weight: bold;
   font-size: x-large;
+  font-family: serif;
+  font-weight: bold;
   text-decoration: none;
   color: #00d400;
 }
-
