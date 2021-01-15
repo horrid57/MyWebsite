@@ -23,7 +23,7 @@ let splashNumber = Math.floor(Math.random() * splashTexts.length);
 
 let elementData = {
     title: {
-        text: greenMode ? "c:\\> horrid57.exe" : "horrid57",
+        text: greenMode ? "horrid57.exe" : "horrid57",
         reference: null,
         className: greenMode ? "title-green" : "title",
         targetDuration: greenMode ? 2000 : 1000,
@@ -38,28 +38,28 @@ let elementData = {
     },
     links: [
         {
-            text: greenMode ? "> Github" : "GitHub",
+            text: "GitHub",
             reference: "https://github.com/horrid57",
             className: greenMode ? "link-green" : "github-link",
             targetDuration: 600,
             initialDelay: greenMode ? 6000 : 5000,
         },
         {
-            text: greenMode ? "> Youtube" : "Youtube",
+            text: "Youtube",
             reference: "https://www.youtube.com/channel/UCWwzXZRV79h2EUbJnKEEe2w",
             className: greenMode ? "link-green" : "youtube-link",
             targetDuration: 700,
             initialDelay: greenMode ? 6900 : 5900,
         },
         {
-            text: greenMode ? "> Twitch" : "Twitch",
+            text: "Twitch",
             reference: "https://www.twitch.tv/horrid57",
             className: greenMode ? "link-green" : "twitch-link",
             targetDuration: 500,
             initialDelay: greenMode ? 7900 : 6900,
         },
         {
-            text: greenMode ? "> Steam" : "Steam",
+            text: "Steam",
             reference: "https://steamcommunity.com/id/horrid57/",
             className: greenMode ? "link-green" : "steam-link",
             targetDuration: 500,
