@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-let greenMode = Math.floor(Math.random() * 10) === 0;
+let greenMode = Math.floor(Math.random() * 2) === 0;
 
 let splashTexts = [
     "Website is under construction",
@@ -23,7 +23,7 @@ let splashNumber = Math.floor(Math.random() * splashTexts.length);
 
 let elementData = {
     title: {
-        text: greenMode ? "horrid57.exe" : "horrid57",
+        text: greenMode ? "c:\\> horrid57.exe" : "horrid57",
         reference: null,
         className: greenMode ? "title-green" : "title",
         targetDuration: greenMode ? 2000 : 1000,

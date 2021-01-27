@@ -22,7 +22,7 @@ table {
 }
 
 .title {
-  font-size: xxx-large;
+  font-size: 8vw;
   text-align: center;
   font-family: serif;
   font-weight: bolder;
@@ -30,7 +30,7 @@ table {
 }
 
 .title-green {
-  font-size: xxx-large;
+  font-size: 5vw;
   text-align: center;
   font-family: serif;
   font-weight: bolder;
@@ -38,7 +38,7 @@ table {
 }
 
 .subtitle {
-  font-size: large;
+  font-size: 1.5vw;
   text-align: center;
   font-family: serif;
   font-weight: bold;
@@ -47,7 +47,7 @@ table {
 }
 
 .subtitle-green {
-  font-size: large;
+  font-size: 1.5vw;
   text-align: center;
   font-family: serif;
   font-weight: bold;
@@ -57,12 +57,14 @@ table {
 .github-link,
 .steam-link,
 .youtube-link,
-.twitch-link {
-  font-size: x-large;
+.twitch-link,
+.link-green {
+  font-size: 2vw;
   font-family: serif;
   font-weight: bold;
   text-decoration: none;
 }
+
 
 .github-link {
   color: #bec3c8;
@@ -81,9 +83,96 @@ table {
 }
 
 .link-green {
-  font-size: x-large;
-  font-family: serif;
-  font-weight: bold;
-  text-decoration: none;
   color: #00d400;
+}
+
+@media (min-width: 1650px) {
+  .title-green {
+    font-size: 5vw;
+  }
+
+  .title {
+    font-size: 7vw;
+  }
+
+  .subtitle-green,
+  .subtitle {
+    font-size: 1.5vw;
+  }
+
+  .github-link,
+  .youtube-link,
+  .twitch-link,
+  .steam-link,
+  .link-green {
+    font-size: 2vw;
+  }
+}
+
+@media (min-width: 1250px) and (max-width: 1650px) {
+  .title-green {
+    font-size: 6vw;
+  }
+
+  .title {
+    font-size: 9vw;
+  }
+
+  .subtitle-green,
+  .subtitle {
+    font-size: 2vw;
+  }
+
+  .github-link,
+  .youtube-link,
+  .twitch-link,
+  .steam-link,
+  .link-green {
+    font-size: 3vw;
+  }
+}
+
+@media (max-width: 1250px) and (min-width: 750px) {
+  .title-green {
+    font-size: 10vw;
+  }
+
+  .title {
+    font-size: 15vw;
+  }
+
+  .subtitle-green,
+  .subtitle {
+    font-size: 3.5vw;
+  }
+
+  .github-link,
+  .youtube-link,
+  .twitch-link,
+  .steam-link,
+  .link-green {
+    font-size: 5vw;
+  }
+}
+@media (max-width: 750px) {
+  .title-green {
+    font-size: 12vw;
+  }
+
+  .title {
+    font-size: 20vw;
+  }
+
+  .subtitle-green,
+  .subtitle {
+    font-size: 4.5vw;
+  }
+
+  .github-link,
+  .youtube-link,
+  .twitch-link,
+  .steam-link,
+  .link-green {
+    font-size: 8vw;
+  }
 }
