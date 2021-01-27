@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-let greenMode = Math.floor(Math.random() * 2) === 0;
+let greenMode = Math.floor(Math.random() * 10) === 0;
 
 let splashTexts = [
     "Website is under construction",
