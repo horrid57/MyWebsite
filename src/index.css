@@ -156,11 +156,11 @@ table {
 }
 @media (max-width: 750px) {
   .title-green {
-    font-size: 12vw;
+    font-size: 10vw;
   }
 
   .title {
-    font-size: 20vw;
+    font-size: 18vw;
   }
 
   .subtitle-green,
